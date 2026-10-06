@@ -1,0 +1,39 @@
+HOW TO CITE THIS WORK
+=====================
+
+Software / method:
+  Gavares, B., Aselin, M., & Claude (Anthropic) (2026). NIMBLE: NAC Image Mosaic Builder for
+  Landing-site Evaluation ("Lunar NearCam Image Mapper"), version 0.1.0 [software].
+  cosmic-software. MIT License.
+
+This product (initial test patch):
+  Gavares, B., Aselin, M., & Claude (Anthropic) (2026). Connecting Ridge 20 x 20 km LROC NAC
+  1 m/pixel patch centred at 89.46°S, 222.92°E (−137.08°), extracted from the LROC South Pole
+  NAC Mosaic tile NAC_POLE_P892S2250. NIMBLE v0.1.0 run "ConnectingRidge", 2026-10-06.
+
+Data (always cite with the above):
+  Robinson, M. S., & LROC Team. LRO Camera RDR V1.0 (LRO-L-LROC-5-RDR-V1.0), South Pole NAC
+  Mosaic, NASA Planetary Data System.
+  Robinson, M. S., et al. (2010). Space Science Reviews 150, 81–124. doi:10.1007/s11214-010-9634-2
+
+BibTeX:
+@software{nimble2026,
+  author  = {Gavares, Ben and Aselin, Mike and {Claude (Anthropic)}},
+  title   = {{NIMBLE}: {NAC} Image Mosaic Builder for Landing-site Evaluation},
+  version = {0.1.0},
+  year    = {2026},
+  publisher = {cosmic-software},
+  note    = {Lunar NearCam Image Mapper; MIT License}
+}
+@misc{lroc_nac_pole_south,
+  author = {Robinson, Mark S. and {LROC Team}},
+  title  = {{LRO} Camera Reduced Data Record V1.0: South Pole {NAC} Mosaic ({NAC\_POLE\_SOUTH})},
+  howpublished = {NASA Planetary Data System, LRO-L-LROC-5-RDR-V1.0},
+  note   = {Tile NAC\_POLE\_P892S2250, 1 m/pixel}
+}
+@article{robinson2010lroc,
+  author  = {Robinson, M. S. and Brylow, S. M. and Tschimmel, M. and others},
+  title   = {Lunar Reconnaissance Orbiter Camera ({LROC}) Instrument Overview},
+  journal = {Space Science Reviews}, volume = {150}, pages = {81--124}, year = {2010},
+  doi     = {10.1007/s11214-010-9634-2}
+}

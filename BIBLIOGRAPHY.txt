@@ -1,0 +1,118 @@
+NIMBLE — BIBLIOGRAPHY
+=====================
+NAC Image Mosaic Builder for Landing-site Evaluation ("Lunar NearCam Image Mapper")
+Compiled 2026-10-06. References are grouped by role. Cite [D1] and [1] in anything that shows
+pixels from this tool.
+
+-------------------------------------------------------------------------------
+A. DATA PRODUCTS USED
+-------------------------------------------------------------------------------
+[D1] Robinson, M. S., and the LROC Team. LRO Camera Reduced Data Record (RDR) Products,
+     Version 1.0, LRO-L-LROC-5-RDR-V1.0, volume LROLRC_2001, product family
+     BDR/NAC_POLE/NAC_POLE_SOUTH (South Pole NAC Mosaic, 1 m/pixel), tile NAC_POLE_P892S2250.
+     NASA Planetary Data System, Cartography & Imaging Sciences Node / LROC SOC, Arizona State
+     University. https://data.lroc.im-ldi.com/lroc/view_rdr/NAC_POLE_SOUTH
+     Archive: https://pds.lroc.im-ldi.com/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/
+
+[D2] Robinson, M. S., and the LROC Team. LRO Camera Calibrated Data Record (CDR) Products,
+     LRO-L-LROC-3-CDR-V1.0 (NAC frames listed in runs/<site>/STRIPS_IN_BOX.csv).
+     NASA Planetary Data System. https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/
+
+[D3] PDS Geosciences Node, Washington University in St. Louis. Lunar Orbital Data Explorer
+     (ODE) REST interface, footprint and metadata queries for LRO LROC CDRNAC4 products.
+     https://oderest.rsl.wustl.edu/  (accessed 2026-10-06)
+
+-------------------------------------------------------------------------------
+B. INSTRUMENT, CALIBRATION AND GEOMETRY
+-------------------------------------------------------------------------------
+[1]  Robinson, M. S., Brylow, S. M., Tschimmel, M., et al. (2010). Lunar Reconnaissance
+     Orbiter Camera (LROC) instrument overview. Space Science Reviews, 150, 81–124.
+     doi:10.1007/s11214-010-9634-2
+
+[2]  Humm, D. C., Tschimmel, M., Brylow, S. M., et al. (2016). Flight calibration of the LROC
+     Narrow Angle Camera. Space Science Reviews, 200, 431–473.
+     doi:10.1007/s11214-015-0201-8
+
+[3]  Speyerer, E. J., Wagner, R. V., Robinson, M. S., et al. (2016). Pre-flight and on-orbit
+     geometric calibration of the Lunar Reconnaissance Orbiter Camera. Space Science Reviews,
+     200, 357–392. doi:10.1007/s11214-014-0073-3
+
+[4]  Wagner, R. V., Speyerer, E. J., Robinson, M. S., and the LROC Team (2015). New mosaicked
+     data products from the LROC team. Lunar and Planetary Science Conference XLVI,
+     Abstract #1473.
+
+[5]  Chin, G., Brylow, S., Foote, M., et al. (2007). Lunar Reconnaissance Orbiter overview:
+     The instrument suite and mission. Space Science Reviews, 129, 391–419.
+     doi:10.1007/s11214-007-9153-y
+
+[6]  Henriksen, M. R., Manheim, M. R., Burns, K. N., et al. (2017). Extracting accurate and
+     precise topography from LROC narrow angle camera stereo observations. Icarus, 283,
+     122–137. doi:10.1016/j.icarus.2016.05.012
+
+-------------------------------------------------------------------------------
+C. CARTOGRAPHY / REFERENCE FRAME
+-------------------------------------------------------------------------------
+[7]  Snyder, J. P. (1987). Map Projections — A Working Manual. U.S. Geological Survey
+     Professional Paper 1395. doi:10.3133/pp1395
+     (Polar stereographic forward and inverse equations, spherical case, pp. 154–163.)
+
+[8]  Archinal, B. A., Acton, C. H., A'Hearn, M. F., et al. (2018). Report of the IAU Working
+     Group on Cartographic Coordinates and Rotational Elements: 2015. Celestial Mechanics and
+     Dynamical Astronomy, 130:22. doi:10.1007/s10569-017-9805-5
+     (Mean lunar radius 1737.4 km reference sphere; CRS code IAU_2015:30135.)
+
+[9]  Smith, D. E., Zuber, M. T., Jackson, G. B., et al. (2010). The Lunar Orbiter Laser
+     Altimeter investigation on the Lunar Reconnaissance Orbiter mission. Space Science
+     Reviews, 150, 209–241. doi:10.1007/s11214-009-9512-y
+
+[10] Barker, M. K., Mazarico, E., Neumann, G. A., et al. (2021). Improved LOLA elevation maps
+     for south pole landing sites: Error estimates and their impact on illumination
+     conditions. Planetary and Space Science, 203, 105119. doi:10.1016/j.pss.2020.105119
+     (5 m/px south-pole DEMs; planned absolute control and orthorectification layer.)
+
+-------------------------------------------------------------------------------
+D. SOUTH POLE ILLUMINATION AND SITE CONTEXT
+-------------------------------------------------------------------------------
+[11] Mazarico, E., Neumann, G. A., Smith, D. E., Zuber, M. T., & Torrence, M. H. (2011).
+     Illumination conditions of the lunar polar regions using LOLA topography. Icarus, 211,
+     1066–1081. doi:10.1016/j.icarus.2010.10.030
+
+[12] NASA (2022, August 19). NASA identifies candidate regions for landing next Americans on
+     Moon (Artemis III; includes "Connecting Ridge"). NASA press release.
+     https://www.nasa.gov/news-release/nasa-identifies-candidate-regions-for-landing-next-americans-on-moon/
+
+[13] LROC Team. Traversing the Shackleton–de Gerlache Ridge. LROC featured image #1247.
+     https://www.lroc.asu.edu/images/1247
+
+-------------------------------------------------------------------------------
+E. ROCK / HAZARD MEASUREMENT METHODOLOGY (for the measurement module)
+-------------------------------------------------------------------------------
+[14] Golombek, M., & Rapp, D. (1997). Size-frequency distributions of rocks on Mars and Earth
+     analog sites: Implications for future landed missions. Journal of Geophysical Research,
+     102(E2), 4117–4129. doi:10.1029/96JE03319
+
+[15] Bandfield, J. L., Ghent, R. R., Vasavada, A. R., Paige, D. A., Lawrence, S. J., &
+     Robinson, M. S. (2011). Lunar surface rock abundance and regolith fines temperatures
+     derived from LRO Diviner Radiometer data. Journal of Geophysical Research, 116, E00H02.
+     doi:10.1029/2011JE003866
+
+-------------------------------------------------------------------------------
+F. SOFTWARE
+-------------------------------------------------------------------------------
+[S1] GDAL/OGR contributors (2025). GDAL/OGR Geospatial Data Abstraction software Library
+     (v3.10). Open Source Geospatial Foundation. doi:10.5281/zenodo.5884351
+[S2] Gillies, S., et al. Rasterio: geospatial raster I/O for Python (v1.4.4).
+     https://github.com/rasterio/rasterio
+[S3] PROJ contributors. PROJ coordinate transformation software library (via pyproj 3.7).
+     Open Source Geospatial Foundation. https://proj.org
+[S4] Gillies, S., et al. Shapely (v2). https://github.com/shapely/shapely
+[S5] Harris, C. R., Millman, K. J., van der Walt, S. J., et al. (2020). Array programming
+     with NumPy. Nature, 585, 357–362. doi:10.1038/s41586-020-2649-2
+[S6] USGS Astrogeology. Integrated Software for Imagers and Spectrometers (ISIS); used by the
+     LROC SOC to produce [D1]; planned for NIMBLE Phase 2 native-strip processing.
+     https://github.com/DOI-USGS/ISIS3
+
+ACKNOWLEDGMENT TEXT (paste into figures/reports):
+  "LROC NAC imagery courtesy NASA/GSFC/Arizona State University. South Pole NAC mosaic
+   (LRO-L-LROC-5-RDR-V1.0, NAC_POLE_SOUTH) obtained from the NASA Planetary Data System.
+   Patch extraction with NIMBLE v0.1 (Gavares, Aselin & Claude, 2026)."

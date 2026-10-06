@@ -1,0 +1,11 @@
+data/cache/
+__pycache__/
+*.npy
+*.done.json
+
+# Run outputs are multi-GB GeoTIFFs; each run is reproducible from its command line.
+runs/
+
+# Local footprint/label caches (re-fetched on demand)
+data/footprints/
+data/labels/
